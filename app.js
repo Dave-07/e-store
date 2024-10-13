@@ -160,7 +160,7 @@ navBottomItems.forEach((el, idx) => {
         /*set all elements*/
         image.setAttribute('src', currentProduct.colors[0].img);
         title.innerText = currentProduct.title;
-        price.innerText = "$" + currentProduct.price;
+        price.innerText = currentProduct.price + "₽";
         description.innerText = currentProduct.desc;
         color1.style.backgroundColor = currentProduct.colors[0].code;
         color2.style.backgroundColor = currentProduct.colors[1].code;

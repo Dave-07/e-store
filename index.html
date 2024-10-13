@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sen:wght@400..800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/icons8-movie-64.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icons8-sneakers-64.png" type="image/x-icon">
+    <title>Nike</title>
+</head>
+
+<body>
+
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="img/sneakers.png" alt="">
+            </div>
+
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Поиск..." class="searchInput">
+                    <img src="img/search.png" width="20" height="20" class="searchIcon">
+                </div>
+            </div>
+
+            <div class="navItem">
+                <span class="limitedOffer">Ограниченное предложение!</span>
+            </div>
+        </div>
+
+        <div class="navBottom">
+            <h3 class="menuItem">AIR FORCE</h3>
+            <h3 class="menuItem">JORDAN</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPIE</h3>
+        </div>
+    </nav>
+
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/air.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR FORCE</br> НОВЫЙ</br> СЕЗОН</h1>
+                <h2 class="sliderPrice">6900₽</h2>
+                <a href="#product">
+                    <button class="buyButton">КУПИТЬ!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/jordan.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR JORDAN</br> НОВЫЙ</br> СЕЗОН</h1>
+                <h2 class="sliderPrice">7500₽</h2>
+                <a href="#product">
+                    <button class="buyButton">КУПИТЬ!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/blazer.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BLAZER</br> НОВЫЙ</br> СЕЗОН</h1>
+                <h2 class="sliderPrice">₽5800</h2>
+                <a href="#product">
+                    <button class="buyButton">КУПИТЬ!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/crater.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CRATER</br> НОВЫЙ</br> СЕЗОН</h1>
+                <h2 class="sliderPrice">₽4999</h2>
+                <a href="#product">
+                    <button class="buyButton">КУПИТЬ!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/hippie.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HIPPIE</br> НОВЫЙ</br> СЕЗОН</h1>
+                <h2 class="sliderPrice">₽6200</h2>
+                <a href="#product">
+                    <button class="buyButton">КУПИТЬ!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="features">
+        <div class="feature">
+            <img class="featureIcon" src="./img/shipping.png" alt="">
+            <span class="featureTitle">БЕСПЛАТНАЯ ДОСТАВКА</span>
+            <span class="featureDesc">Бесплатная доставка на все заказы.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return.png" alt="">
+            <span class="featureTitle">30 ДНЕЙ НА ВОЗВРАТ</span>
+            <span class="featureDesc">Возврат за 14 дней.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift.png" alt="">
+            <span class="featureTitle">ПОДАРОЧНЫЕ КАРТЫ </span>
+            <span class="featureDesc">Купите подарочные карты и используйте коды купонов.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact.png" alt="">
+            <span class="featureTitle">СВЯЖИТЕСЬ С НАМИ!</span>
+            <span class="featureDesc">Поддерживайте связь по электронной почте и системе поддержки.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="img/air.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productPrice">6900</h2>
+            <p class="productDesc">
+                Дизайн модели Nike Air Force был создан еще в 70-х, но, кажется, с годами он становится еще более
+                актуальным.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productButton">КУПИТЬ!</button>
+        </div>
+
+        <div class="payment">
+            <h1 class="payTitle">Персональная информация</h1>
+
+            <label for="">Имя и Фамилия</label>
+            <input type="text" placeholder="Введите свое полное имя" class="payInput">
+
+            <label for="">Номер телефона</label>
+            <input type="text" placeholder="Введите ваш номер" class="payInput">
+
+            <label for="">Адрес</label>
+            <input type="text" placeholder="Введите ваш адрес" class="payInput">
+
+            <h1 class="payTitle">Информация о карте</h1>
+
+            <div class="cardIcons">
+                <img src="img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="img/master.png" width="40" class="cardIcon">
+            </div>
+
+            <input type="password" class="payInput" placeholder="Номер карты">
+
+            <div class="cardInfo">
+                <input type="text" placeholder="мм" class="payInput sm">
+                <input type="text" placeholder="гггг" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+
+            <button class="payButton">
+                <span class="buttonText">Приобрести!</span>
+            </button>
+
+            <span class="close">X</span>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Будь собой!</h1>
+            <img src="https://images.unsplash.com/photo-1609535766154-e47e5aa87789?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://images.unsplash.com/photo-1488161628813-04466f872be2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">Это первый день <br> твоей новой жизни!</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Просто сделай это!</h1>
+            <img src="https://images.unsplash.com/photo-1583410742394-0ecb481a33d2?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="https://images.unsplash.com/photo-1602560587445-637dddf5f40f?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="" class="nsImg">
+        </div>
+
+        <div class="nsItem">
+            <h3 class="nsTitleSm">ЗИМНЯЯ НОВИНКА</h3>
+            <h1 class="nsTitle">Новый Сезон</h1>
+            <h1 class="nsTitle">Новая коллекция</h1>
+            <a href="#nav">
+                <button class="nsButton">ВЫБЕРИТЕ СВОЙ СТИЛЬ</button>
+            </a>
+        </div>
+
+        <div class="nsItem">
+            <img src="https://images.unsplash.com/photo-1650751909769-f918d36bab92?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="" class="nsImg">
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">О компании</h1>
+                <ul class="fList">
+                    <li class="flistItem">О нас</li>
+                    <li class="flistItem">Контакты</li>
+                    <li class="flistItem">Вакансии</li>
+                    <li class="flistItem">Филиалы</li>
+                    <li class="flistItem">Блог</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Полезные ссылки</h1>
+                <ul class="fList">
+                    <li class="flistItem">Поддержка</li>
+                    <li class="flistItem">Обмен и возврат</li>
+                    <li class="flistItem">FAQ</li>
+                    <li class="flistItem">Обратная связь</li>
+                    <li class="flistItem">Магазины</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Бренды</h1>
+                <ul class="fList">
+                    <li class="flistItem">Air Force</li>
+                    <li class="flistItem">Air Jordan</li>
+                    <li class="flistItem">Blazer</li>
+                    <li class="flistItem">Crater</li>
+                    <li class="flistItem">Hippie</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Подпишитесь на нашу рассылку</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="Ваш @e-mail" class="fInput">
+                    <button class="fButton">
+                        Подписаться!
+                    </button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Мы здесь!</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@DaveT,2024.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
